@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('./assets/fonts/Robo/static/Roboto-Medium.ttf') format('truetype');
+}
+
+/* General styles */
+
+body{
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+
+
+/* Heared styles */
+
+.header-container{
+    display: flex;
+    align-items: center;
+    padding:2.2em 3.94em;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #FFFFFF;
+    top: 0; /*Дозволяє поставити тіло на самий верх*/
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+/* .logo{
+
+} */
+
+.menu-list{
+    display: flex;
+    align-items: center;
+
+}
+
+.menu-item{
+    margin-left: 3.2em;
+}
+
+.blue-button{
+    /* font-size: 1.12em; */
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 1.19em 1.94em;
+    border-radius: 4.8rem;
+    margin-left: 1.3em;
+
+}
+
+/* First screen */
+
+.first-screen{
+    background-image: url('../assets/img/hero1.png');
+    background-repeat: no-repeat;
+    background-size: cover; /*contain,cover,auto */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 17vh;
+    
+}
+
+.first-screen-container{
+    width: 50%;
+    margin-left: 5.8em;
+    
+}
+
+.main-title{
+    font-weight: 800;
+    font-size: 3.94em;
+
+}
+
+.main-description{
+    font-weight: 400;
+    margin-top: 0.5em;
+}
+
+.white-button{
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    padding: 1.19em 1.94em;
+    border-radius: 4.8rem;
+    margin-top: 0.5em;
+    border: none;
+
+}
+
+
+/* Second screen */
+
+.description-title{
+    /* background-color: #FFFFFF;
+    font-weight: 400;
+    padding: 0em 3.9em; */
+    padding: 5vw;
+
+}
+
+.description-header{
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    /* align-items: center; */
+    margin: 8.8em 3.9em;
+
+}
+
+.description-block{
+    background-color: #F1FDFF;
+    margin-bottom: 3.4em;
+    display: flex;
+    flex-direction: row;
+    padding: 5vh 4vw;
+    align-items: center;
+    /* height: 25rem; Не зрозумів чи мають бути рамки однакові */
+}
+
+.second-block{
+    margin-right: 50px;
+}
+
+.second-title{
+    font-size: 3.75em;
+}
+
+.second-description{
+    font-size: 1.68em;
+}
+
+.blue-text{
+    font-size: 1.25em;
+    color: #73A6B1;
+}
+
+.third-title{
+    font-size: 2.87em;
+}
+
+.third-description{
+    font-size: 1.25em;
+}
+
+.blue-button-title{
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 1.19em 1.94em;
+    border-radius: 4.8rem;
+    display: block;
+    margin: auto;
+    margin-bottom: 10rem;
+    border: none;
+}
+
+.images{
+    max-width: 40vw;
+    border-radius: 10px;
+}
+
+
+/* Third screen */
+
+.hero3-description{
+    background-color: #F1FDFF;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 0 4vw;
+    height: 19rem;
+    align-items: center;
+    margin: 20rem 0;
+
+}
+
+.childrem{
+    
+    margin-bottom: 7.6rem;
+}
+
+.hero3-block{
+    width: 35rem;
+}
+
+.div-hero3{
+    width: 10vw;
+}
+
+
+
+.for-images{
+    /* display: flex; */
+    position: absolute;
+    flex-direction: row;
+    margin-left: 40%;
+}
+.hero3-background{
+    margin-left: 1rem;
+    position: absolute;
+    height: auto;
+    width: 40rem;
+    padding-top: 4rem;
+
+}
+.hero3-front{
+    position: relative;
+    height: auto;
+    width: 40rem;
+}
+
+.hero3-text{
+    font-size: 1.3em;
+}
+
+/* hero-4 */
+
+.support-us{
+    font-size: 3.33em;
+    text-transform: uppercase;
+}
+
+.hero4-text{
+    font-size: 1.11em;
+    margin-top: 1rem;
+    color: #73A6B1;
+}
+
+.our-goal{
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+}
+
+.numbers-money{
+    font-size: 3.3em;
+    text-transform: uppercase;
+}
+
+.hero4-description{
+    text-align: center;
+}
+
+.money{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.support-numeric{
+    margin: 4rem 0;
+}
+
+/* footer */
+
+.hero-footer{
+    padding: 0 5vw 12vw 5vw;
+    background-color: #F9FADF;
+
+}
+
+.blue-button-email{
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 1.19em 1.94em;
+    border-radius: 4.8rem;
+    display: block;
+    margin: auto;
+    margin-bottom: 4rem;
+    border: none;
+    width: 100%;
+
+}
+
+.icons-footer{
+    width: 2em;
+}
+
+.get-mail-user{
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 3.7rem 3.7rem 0 3.7rem;
+    border-radius: 10px;
+
+}
+
+.contact-footer{
+    display: flex;
+    padding: 5rem;
+    padding-top: 3rem;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.image-mail{
+    margin-right: 5rem;
+    width: 50%;
+    height: 45%;
+
+}
+
+.footer-data{
+    display: block;
+    background-color: #F9FADF;
+    margin-bottom: 2rem;
+    width: 93%;
+    padding: 1rem;
+    border-radius: 61px;
+    border: none
+
+}
+
+
+
+/* footer-text */
+.hero-contact{
+    font-size: 3.3em;
+    text-transform: uppercase;
+    padding: 0 5rem ;
+    text-align: center;
+}
+
+.write-us{
+    font-size: 1.11em;
+}
+
+.mail-info{
+    font-size: 1.5em;
+    margin-bottom: 2.5rem;
+}
+
+.write-us{
+    padding: 0 6rem 0 0;
+}
+
+.number-phone{
+    padding-bottom: 3rem;
+    
+}
+
+
+/* 
+
+@media screen and (max-width: 885px) {
+    body{
+        background-color: green;
+    }
+
+    .description-block{
+        flex-direction: column;
+        
+    }
+
+    .hero3-description{
+        flex-direction: column;
+        margin-top: 20rem;
+    }
+
+    .contact-footer{
+        flex-direction: column;
+        padding: 2rem 5rem;
+    }
+
+    .get-mail-user{
+        flex-direction: column;
+    }
+
+    .first-screen{
+        background-position: 90% 70%;
+    }
+    
+    .hero-contact{
+        padding: 0 0 20vw;
+    }
+
+    .image-mail{
+        width: 80%;
+        height: 50%;
+        margin: 0;
+        margin: auto;
+    
+    }
+
+    .childrem{
+        margin-top: 10rem;
+
+        padding: 0;
+    }
+
+    .hero3-front{
+        width: 30rem;
+        height: auto;
+    }
+
+    .hero3-background{
+        width: 30rem;
+        height: 20rem;
+        
+    }
+} */
+
+
+
+
+/* em - відповідають за шрифти та їх відступи
+
+viewport - видима частина екрана браузера, яку займає документ (відносні одиниці)
+
+% - відносна од. яка вказує на відсоток від розміру батьківського ел.
+
+1vw (viewport wdth - ширина вьюпотра) - одна сота ширини вюпорта
+1vh (viewport height - ширина вьюпорта) - одиниця сота висоти вьюпорта
+
+ */
+
+ /* 
+
+ Дз - Розібрати media запити
+
+*/
