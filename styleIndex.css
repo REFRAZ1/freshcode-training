@@ -56,7 +56,7 @@ body{
 /* First screen */
 
 .first-screen{
-    background-image: url('./assets/img/hero1.png');
+    background-image: url('/assets/img/hero1.png');
     background-repeat: no-repeat;
     background-size: cover; /*contain,cover,auto */
     width: 100%;
