@@ -180,6 +180,7 @@ body{
     height: 19rem;
     align-items: center;
     margin: 20rem 0;
+    justify-content: space-between;
 
 }
 
