@@ -82,3 +82,21 @@ function money()
 
 let timerId = setInterval(() => money(), 5000);
 
+function ShowList() {
+    const menu = document.getElementById("menu-list");
+    if (window.matchMedia("(max-width: 644px)").matches) {
+        menu.classList.toggle("menu-visible");
+    }
+}
+
+function updateMenuDisplay() {
+    const menu = document.getElementById("menu-list");
+    if (window.matchMedia("(max-width: 644px)").matches) {
+        menu.classList.remove("menu-visible");
+    } else {
+        menu.classList.add("menu-visible");
+    }
+}
+
+window.addEventListener('resize', updateMenuDisplay);
+window.addEventListener('DOMContentLoaded', updateMenuDisplay);
