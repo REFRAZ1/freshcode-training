@@ -4,12 +4,6 @@ var tirdSum = 0;
 
 function money()
 {
-
-    if(startSum > 999){
-        startSum = 0;
-        secondSum += 1
-    }
-
     if(startSum == 0)
     {
         document.getElementById('hundrets').innerHTML = '000';
@@ -29,14 +23,13 @@ function money()
     else
     {
         document.getElementById('hundrets').innerHTML = startSum;
-        startSum += 990;
+        startSum += 96;
 
     }
 
-
-    if(secondSum > 999){
-        secondSum = 0;
-        tirdSum += 1;
+    if(startSum > 999){
+        startSum = 0;
+        secondSum += 1
     }
 
     if(secondSum == 0)
@@ -59,9 +52,12 @@ function money()
     
         }
 
+    if(secondSum > 999){
+        secondSum = 0;
+        tirdSum += 1;
+    }
 
-    if(tirdSum == 0)
-    {
+    if(tirdSum == 0){
         document.getElementById('millions').innerHTML = '00';
 
     }
