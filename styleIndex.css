@@ -6,9 +6,6 @@
 }
 
 /* General styles */
-*{
-    box-sizing: border-box;
-}
 
 body{
     font-family: Montserrat;
@@ -56,21 +53,10 @@ body{
 
 }
 
-.icon-button{
-    display: none;
-    text-decoration: none;
-    color: black;
-    font-size: 3em;
-}
-
-.icon-button:hover{
-    color: #7AE5FD;
-}
-
 /* First screen */
 
 .first-screen{
-    background-image: url('../assets/img/hero1.png');
+    background-image: url('/freshcode-training/assets/img/hero1.png');
     background-repeat: no-repeat;
     background-size: cover; /*contain,cover,auto */
     width: 100%;
@@ -91,7 +77,6 @@ body{
 .main-title{
     font-weight: 800;
     font-size: 3.94em;
-    color: #FFFFFF;
 
 }
 
@@ -137,7 +122,7 @@ body{
     margin-bottom: 3.4em;
     display: flex;
     flex-direction: row;
-    padding: 1.5em .8em;
+    padding: 5vh 4vw;
     align-items: center;
     /* height: 25rem; Не зрозумів чи мають бути рамки однакові */
 }
@@ -147,7 +132,7 @@ body{
 }
 
 .second-title{
-    font-size: 3.7em;
+    font-size: 3.75em;
 }
 
 .second-description{
@@ -221,6 +206,7 @@ body{
     margin-left: 40%;
 }
 .hero3-background{
+    margin-left: 1rem;
     position: absolute;
     height: auto;
     width: 40rem;
@@ -336,20 +322,15 @@ body{
 
 
 /* footer-text */
-.contact-us1{
-    padding-right: 9rem;
-}
 .hero-contact{
     font-size: 3.3em;
     text-transform: uppercase;
+    padding: 0 5rem ;
     text-align: center;
-    padding: 0 0 20vw;
 }
-
 
 .write-us{
     font-size: 1.11em;
-    padding: 0 6rem 0 0;
 }
 
 .mail-info{
@@ -357,78 +338,36 @@ body{
     margin-bottom: 2.5rem;
 }
 
+.write-us{
+    padding: 0 6rem 0 0;
+}
+
 .number-phone{
     padding-bottom: 3rem;
     
 }
 
-/* Для JS and CSS */
-/* Додайте цей клас у style.css */
 
-.menu-list {
-    display: none;
-}
-.menu-list.menu-visible {
-    display: flex;
-}
+/* 
 
-@media screen and (max-width: 1024px) {
-
-    .menu-item{
-        margin-left: 1.8em;
-
+@media screen and (max-width: 885px) {
+    body{
+        background-color: green;
     }
-        .description-block{
-        flex-direction: column;
-    }
-
-    .hero3-description{
-        flex-direction: column;
-        height: auto;
-        margin-top: 20rem;
-    }
-
-    .hero3-text{
-        padding: 1rem;
-
-    }
-
-    .contact-us1{
-    padding-right: 6.5rem;
-}
-
-.hero-contact{
-    font-size: 2em;
-}
-
-
-
-    
-}
-@media screen and (max-width: 644px) {
-
 
     .description-block{
         flex-direction: column;
-        max-width: 100%;
-    
+        
     }
 
     .hero3-description{
         flex-direction: column;
-        height: auto;
         margin-top: 20rem;
-    }
-
-    .hero3-block{
-        max-width: 100%;
-        margin: auto;
     }
 
     .contact-footer{
         flex-direction: column;
         padding: 2rem 5rem;
-
     }
 
     .get-mail-user{
@@ -439,95 +378,35 @@ body{
         background-position: 90% 70%;
     }
     
-   
+    .hero-contact{
+        padding: 0 0 20vw;
+    }
 
     .image-mail{
         width: 80%;
         height: 50%;
         margin: 0;
         margin: auto;
+    
     }
 
     .childrem{
         margin-top: 10rem;
-        margin-right: auto;
+
         padding: 0;
     }
 
     .hero3-front{
-        width: 100%;
+        width: 30rem;
         height: auto;
     }
 
     .hero3-background{
-        width: 90%;
-        height: auto;
+        width: 30rem;
+        height: 20rem;
         
     }
-
-        .icon-button{
-        display: flex;
-    }
-
-    .menu-list {
-    position: absolute;
-    top: 8.5em;
-    right: 2rem;
-    background-color: rgb(243, 243, 243);
-    padding-right: 1em;
-    padding-bottom: 1em;
-    border-radius: 1.5rem;
-  flex-direction: column;
-    }
-
-    .menu-list > li{
-        padding: 1em;
-        font-size: 1.2rem;
-    }
-
-        .menu-list > li:hover{
-            color: #16b9dd;
-    }
-
-    .menu-item {
-    margin-left: 1em;
-    }
-
-    .second-title{
-        font-size: 2em;
-        font-weight: 400;
-    }
-
-    .main-title{
-        font-weight: 600;
-        font-size: 2.94em;
-    }
-
-
-    .support-us{
-    font-size: 2.33em;
-    text-transform: uppercase;
-    }
-
-    .first-screen-container{
-        margin: 0;
-    }
-
-    .write-us{
-    font-size: 1.11em;
-    padding: 0 0 0 0;
-    }
-
-    .third-title{
-        font-size: 1.4em;
-    }
-
-    .description-header{
-        text-transform: none;
-    }
-
-}
-
+} */
 
 
 
