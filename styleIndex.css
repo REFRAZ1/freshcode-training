@@ -102,7 +102,7 @@ body{
 
 .main-title{
     font-weight: 800;
-    font-size: 5.94vw;
+    font-size: 3.94em;
     color: #FFFFFF;
 
 }
@@ -110,7 +110,7 @@ body{
 .main-description{
     font-weight: 400;
     margin-top: 0.6em;
-    font-size: 2.2vw;
+    font-size: 2vw;
 }
 
 .white-button{
@@ -120,8 +120,6 @@ body{
     border-radius: 4.8rem;
     margin-top: 0.5em;
     border: none;
-    font-size: 1.3vw;
-
 }
 
 
